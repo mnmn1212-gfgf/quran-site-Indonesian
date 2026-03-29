@@ -1691,44 +1691,50 @@ export default function QuranTranslationLandingPage() {
                   </p>
                 </div>
 
-                <div className={`${footerHighlightCard} p-4 sm:p-5`}>
-                  <div className="mb-4 flex items-center gap-2 text-base font-bold text-white sm:text-lg">
-                    <MessageCircle
-                      className="h-5 w-5"
-                      style={{ color: GOLD }}
-                    />
-                    Kontak kami
-                  </div>
-
-                  <div className="space-y-4 text-white/72">
-                    <a
-                      href="mailto:snachannel159@gmail.com"
-                      className="flex items-center gap-3 break-all rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] px-4 py-3 text-sm transition hover:bg-white/[0.08] sm:text-base"
-                    >
-                      <Mail
-                        className="h-4 w-4 shrink-0"
+                <div
+                  className={`${footerHighlightCard} p-5 sm:p-6 flex flex-col items-center justify-center text-center`}
+                >
+                  <div className="mb-6 flex flex-col items-center gap-3">
+                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.12)] bg-white/[0.08] shadow-[0_0_18px_rgba(124,131,246,0.10)]">
+                      <MessageCircle
+                        className="h-6 w-6"
                         style={{ color: GOLD }}
                       />
-                      snachannel159@gmail.com
-                    </a>
-
-                    <div className="flex items-center gap-3 rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] px-4 py-3 text-sm sm:text-base">
-                      <MapPin
-                        className="h-4 w-4 shrink-0"
-                        style={{ color: GOLD }}
-                      />
-                      Amman - Yordania
+                    </div>
+                    <div className="text-xl font-bold text-white sm:text-2xl">
+                      Kontak kami
                     </div>
                   </div>
 
-                  <div className="mt-5 rounded-[1.4rem] border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] p-4">
+                  <div className="w-full space-y-4 text-white/72">
+                    <a
+                      href="mailto:snachannel159@gmail.com"
+                      className="flex items-center justify-center gap-3 break-all rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] px-4 py-3 text-sm transition hover:bg-white/[0.08] sm:text-base"
+                    >
+                      <Mail
+                        className="h-5 w-5 shrink-0"
+                        style={{ color: GOLD }}
+                      />
+                      <span className="text-center">snachannel159@gmail.com</span>
+                    </a>
+
+                    <div className="flex items-center justify-center gap-3 rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] px-4 py-3 text-sm sm:text-base">
+                      <MapPin
+                        className="h-5 w-5 shrink-0"
+                        style={{ color: GOLD }}
+                      />
+                      <span className="text-center">Amman - Yordania</span>
+                    </div>
+                  </div>
+
+                  <div className="mt-5 w-full rounded-[1.4rem] border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] p-4">
                     <a
                       href="https://www.facebook.com/share/18HTkpGDKc/"
                       target="_blank"
                       rel="noreferrer"
                       className="flex items-center justify-center gap-2 rounded-xl border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] py-3 text-sm font-semibold text-white transition hover:scale-[1.01] hover:bg-white/[0.08]"
                     >
-                      <Globe className="h-4 w-4" style={{ color: GOLD }} />
+                      <Globe className="h-5 w-5" style={{ color: GOLD }} />
                       Ikuti kami di Facebook
                     </a>
 
@@ -1738,14 +1744,20 @@ export default function QuranTranslationLandingPage() {
                   </div>
                 </div>
 
-                <div className={`${footerHighlightCard} p-4 backdrop-blur-md sm:p-5`}>
-                  <div className="mb-5 flex items-center gap-2 text-base font-bold text-white sm:text-lg">
-                    <Link2 className="h-5 w-5" style={{ color: GOLD }} />
-                    Tautan aplikasi
+                <div
+                  className={`${footerHighlightCard} p-5 backdrop-blur-md sm:p-6 flex flex-col items-center justify-center text-center`}
+                >
+                  <div className="mb-6 flex flex-col items-center gap-3">
+                    <div className="flex h-14 w-14 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.12)] bg-white/[0.08] shadow-[0_0_18px_rgba(124,131,246,0.10)]">
+                      <Link2 className="h-6 w-6" style={{ color: GOLD }} />
+                    </div>
+                    <div className="text-xl font-bold text-white sm:text-2xl">
+                      Tautan aplikasi
+                    </div>
                   </div>
 
-                  <div className="rounded-[1.4rem] border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] p-4">
-                    <p className="mb-4 text-sm leading-7 text-white/65">
+                  <div className="w-full rounded-[1.4rem] border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] p-4">
+                    <p className="mb-4 text-center text-sm leading-7 text-white/65">
                       Unduh aplikasi resmi untuk mengikuti konten Qurani dengan lancar dan elegan di platform favorit Anda.
                     </p>
 
@@ -1756,8 +1768,8 @@ export default function QuranTranslationLandingPage() {
                         rel="noreferrer"
                         className="group rounded-[1.3rem] border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] p-4 transition hover:-translate-y-0.5 hover:bg-white/[0.08]"
                       >
-                        <div className="flex items-center justify-between gap-3">
-                          <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(124,131,246,0.10)] text-white">
+                        <div className="flex flex-col items-center justify-center gap-3 text-center">
+                          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(124,131,246,0.10)] text-white">
                             <GooglePlayIcon />
                           </div>
                           <span className="whitespace-nowrap text-sm font-bold text-white sm:text-base">
@@ -1772,8 +1784,8 @@ export default function QuranTranslationLandingPage() {
                         rel="noreferrer"
                         className="group rounded-[1.3rem] border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] p-4 transition hover:-translate-y-0.5 hover:bg-white/[0.08]"
                       >
-                        <div className="flex items-center justify-between gap-3">
-                          <div className="flex h-11 w-11 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(124,131,246,0.10)] text-white">
+                        <div className="flex flex-col items-center justify-center gap-3 text-center">
+                          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(124,131,246,0.10)] text-white">
                             <AppStoreIcon />
                           </div>
                           <span className="text-sm font-bold text-white sm:text-base">
@@ -1784,7 +1796,7 @@ export default function QuranTranslationLandingPage() {
                     </div>
 
                     <div className="mt-5 rounded-[1.4rem] border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] p-4">
-                      <div className="flex flex-wrap items-center justify-between gap-2 text-xs text-white/65">
+                      <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-white/65">
                         <span className="flex items-center gap-1.5">
                           <span style={{ color: GOLD }}>★</span> Rating 4,9
                         </span>
