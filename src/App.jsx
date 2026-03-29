@@ -1662,33 +1662,37 @@ export default function QuranTranslationLandingPage() {
               className="rounded-[2rem] px-4 py-6 sm:px-6 sm:py-8 lg:px-10 border border-[rgba(238,240,255,0.08)] bg-[linear-gradient(135deg,#0B1234_0%,#121A45_55%,#1B255F_100%)] shadow-[0_16px_50px_rgba(0,0,0,0.35)]"
             >
               <div className="grid gap-6 lg:grid-cols-[1.2fr_0.8fr_1fr]">
-                <div className={`${footerHighlightCard} p-4 text-center sm:p-6`}>
-                  <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-[rgba(238,240,255,0.12)] bg-white/[0.08] shadow-[0_0_24px_rgba(124,131,246,0.12)] backdrop-blur-md sm:h-24 sm:w-24">
-                    <img
-                      src={sanaLogo}
-                      alt="Logo Sana"
-                      className="h-14 w-14 object-contain sm:h-16 sm:w-16"
-                      loading="lazy"
-                      decoding="async"
-                    />
-                  </div>
+                <div
+                  className={`${footerHighlightCard} flex h-full flex-col justify-center p-4 text-center sm:p-6`}
+                >
+                  <div className="flex flex-1 flex-col items-center justify-center">
+                    <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full border border-[rgba(238,240,255,0.12)] bg-white/[0.08] shadow-[0_0_24px_rgba(124,131,246,0.12)] backdrop-blur-md sm:h-24 sm:w-24">
+                      <img
+                        src={sanaLogo}
+                        alt="Logo Sana"
+                        className="h-14 w-14 object-contain sm:h-16 sm:w-16"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
 
-                  <div className="mt-4">
-                    <span className="inline-flex rounded-full border border-[rgba(238,240,255,0.08)] bg-white/[0.05] px-4 py-2 text-xs text-white/90 sm:px-5 sm:text-sm">
-                      Kanal Al-Qur’an Sana
-                    </span>
-                  </div>
+                    <div className="mt-4">
+                      <span className="inline-flex rounded-full border border-[rgba(238,240,255,0.08)] bg-white/[0.05] px-4 py-2 text-xs text-white/90 sm:px-5 sm:text-sm">
+                        Kanal Al-Qur’an Sana
+                      </span>
+                    </div>
 
-                  <div
-                    className="mt-4 text-2xl font-black sm:text-3xl"
-                    style={{ color: GOLD }}
-                  >
-                    Sana... sebuah pesan untuk seluruh alam semesta
-                  </div>
+                    <div
+                      className="mt-4 text-2xl font-black sm:text-3xl"
+                      style={{ color: GOLD }}
+                    >
+                      Sana... sebuah pesan untuk seluruh alam semesta
+                    </div>
 
-                  <p className="mx-auto mt-4 max-w-xl rounded-[1.4rem] border border-[rgba(124,131,246,0.16)] bg-[rgba(18,24,66,0.72)] px-4 py-4 text-sm leading-7 text-white/90 sm:px-5 sm:text-base sm:leading-8">
-                    Kanal audio dan visual yang didedikasikan untuk terjemahan makna Al-Qur’an dalam berbagai bahasa dunia, dengan identitas yang elegan, setia, dan sangat menginspirasi.
-                  </p>
+                    <p className="mx-auto mt-4 max-w-[30rem] rounded-[1.4rem] border border-[rgba(124,131,246,0.16)] bg-[rgba(18,24,66,0.72)] px-4 py-4 text-sm leading-7 text-white/90 sm:px-5 sm:text-base sm:leading-8">
+                      Kanal audio dan visual yang didedikasikan untuk terjemahan makna Al-Qur’an dalam berbagai bahasa dunia, dengan identitas yang elegan, setia, dan sangat menginspirasi.
+                    </p>
+                  </div>
                 </div>
 
                 <div
@@ -1768,8 +1772,8 @@ export default function QuranTranslationLandingPage() {
                         rel="noreferrer"
                         className="group rounded-[1.3rem] border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] p-4 transition hover:-translate-y-0.5 hover:bg-white/[0.08]"
                       >
-                        <div className="flex flex-col items-center justify-center gap-3 text-center">
-                          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(124,131,246,0.10)] text-white">
+                        <div className="flex items-center justify-center gap-3 text-center">
+                          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(124,131,246,0.10)] text-white">
                             <GooglePlayIcon />
                           </div>
                           <span className="whitespace-nowrap text-sm font-bold text-white sm:text-base">
@@ -1784,8 +1788,8 @@ export default function QuranTranslationLandingPage() {
                         rel="noreferrer"
                         className="group rounded-[1.3rem] border border-[rgba(238,240,255,0.08)] bg-[rgba(18,24,66,0.6)] p-4 transition hover:-translate-y-0.5 hover:bg-white/[0.08]"
                       >
-                        <div className="flex flex-col items-center justify-center gap-3 text-center">
-                          <div className="flex h-12 w-12 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(124,131,246,0.10)] text-white">
+                        <div className="flex items-center justify-center gap-3 text-center">
+                          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-[rgba(238,240,255,0.08)] bg-[rgba(124,131,246,0.10)] text-white">
                             <AppStoreIcon />
                           </div>
                           <span className="text-sm font-bold text-white sm:text-base">
