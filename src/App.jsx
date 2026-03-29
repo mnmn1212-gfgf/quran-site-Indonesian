@@ -1245,7 +1245,7 @@ export default function QuranTranslationLandingPage() {
                         Bahasa saat ini
                       </p>
                       <h3 className="mt-1 text-xl font-bold text-white sm:text-2xl">
-                        Al-Qur’an dalam bahasa Arab
+                        Al-Qur'an dalam bahasa Indonesia
                       </h3>
                     </div>
 
